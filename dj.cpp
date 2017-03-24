@@ -8,21 +8,13 @@
 #define INFINITY 9999
 using namespace std;
 
-class d
-{
-    int y;
-    int *path;
-    friend class graph;
-};
-
 class graph
 {
 	private:
 		int **mat;		//2d array to store cost matrix
 		bool check;		//variable to chose between directed and undirected graph
 		string *names;		//array to store names of the cities
-		int total;		//total number of nodes,array for minimum distance
-		d *dist;
+		int total,*d;		//total number of nodes,array for minimum distance
 		bool *v;		//array to store visited flags of the nodes
 	public:
 		graph();
@@ -49,7 +41,7 @@ graph :: graph()
 	names = new string[total+1];	//list of names of the cities
 	mat = new int*[total+1];	//cost matrix
 	v = new bool[total+1];		//list of visited cities
-	dist = new d[total+1];		//list of the distance in final shortest path
+	d = new int[total+1];		//list of the distance in final shortest path
 
 	cout<<"\nEnter the names of the cities : ";
 	for(int i=1;i<=total;i++)
@@ -74,6 +66,7 @@ graph :: graph()
 			mat[i][j] = 0;
 		}
 	}
+
 }
 
 void graph :: accept()
@@ -99,8 +92,6 @@ void graph :: accept()
 		}
 		cout<<"\nEnter the distance in kms : ";
 		cin>>dis;
-
-		//inserting values in the cost matrix
 		mat[a][b] = dis;
 		if(!check)
 			mat[b][a] = dis;
@@ -141,11 +132,6 @@ void graph :: shortest()
 		        }
 		}
 	}
-	if(d[des] == INFINITY)
-    {
-        cout<<"\nNo path present from "<<names[src]<<" to "<<names[des]<<endl;
-        return;
-    }
 	cout<<"\nShortest path from "<<names[src]<<" to "<<names[des]<<" : "<<d[des]<<" kms\n";
 }
 
@@ -170,5 +156,4 @@ int main()
 	graph g;
 	g.accept();
 	g.shortest();
-	return 0;
 }
