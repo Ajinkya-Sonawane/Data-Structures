@@ -153,6 +153,7 @@ int graph :: minDistance()
 
 int main()
 {
+	//calling the functions to accept the graph and find the shortest path
 	graph g;
 	g.accept();
 	g.shortest();
