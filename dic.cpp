@@ -322,6 +322,7 @@ node* tree :: balance(node* r)
 
 int main()
 {
+	//Menu to chose from storing ,searching,updating and deleting
 	tree t;
 	int ch;
 	do
