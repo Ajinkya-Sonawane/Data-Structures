@@ -1,3 +1,5 @@
 # Tutorial
 -Ajinkya Sonawane.
-C++ Programs for implementing Data Structures and their Applications.
+This repository is made for programs related to data structures and algorithms.
+Programs are written in C++.
+Later versions will also include Python.
