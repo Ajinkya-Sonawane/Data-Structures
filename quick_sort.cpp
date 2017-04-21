@@ -1,3 +1,8 @@
+/*
+	C++ Program to implement Quick Sort.
+	- Ajinkya Sonawane [AJ-CODE-7]
+*/
+
 #include<iostream>
 using namespace std;
 
