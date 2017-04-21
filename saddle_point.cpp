@@ -1,8 +1,6 @@
 /*
-Name	 : Ajinkya V. Sonawane 
-Class	 : SE-C	
-Roll No. : 223066
-Batch	 : C-4
+	C++ Program for finding saddle point.
+	- Ajinkya Sonawane [AJ-CODE-7]
 */
 
 #include<iostream>
