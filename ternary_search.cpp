@@ -1,3 +1,8 @@
+/*
+	C++ Program to implement ternary search.
+	- Ajinkya Sonawane [AJ-CODE-7]
+*/
+
 #include<iostream>
 using namespace std;
 class ternary
