@@ -26,5 +26,5 @@ All the programs are in `C++`
    ## Usage
    <ol>
     <li> clone this repository : https://github.com/Ajinkya-Sonawane/Data-Structures-and-Algorithms.git </li>
-  <li> GNU C++ Compiler : <b>g++ filename.cpp && ./a.out<b></li>
+  <li> GNU C++ Compiler : <pre><code>g++ filename.cpp && ./a.out</code></pre></li>
   </ol>
