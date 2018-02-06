@@ -9,8 +9,8 @@ All the programs are in `C++`
       <li>Binary Search Tree</li>
       <li>Complete Binary Tree</li>
       <li>AVL Tree</li>
-      <li>Inorder Binary Tree</li>
-      <li>Preorder Search Tree</li>
+      <li>Inorder Threaded Binary Tree</li>
+      <li>Preorder Threaded Binary Tree</li>
     </ul>
     <li><b>Algorithms</b></li>
     <ul>
