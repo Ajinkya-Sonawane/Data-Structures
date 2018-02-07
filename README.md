@@ -6,19 +6,19 @@ All the programs are in `C++`
   <ol>
     <li><b>Data Structures</b></li>
     <ul>
-      <li>Binary Search Tree</li>
-      <li>Complete Binary Tree</li>
-      <li>AVL Tree</li>
-      <li>Inorder Threaded Binary Tree</li>
-      <li>Preorder Threaded Binary Tree</li>
+      <li><a href="bst.cpp">Binary Search Tree</a></li>
+      <li><a href="cbt.cpp">Complete Binary Tree</a></li>
+      <li><a href="dic.cpp">AVL Tree</a></li>
+      <li><a href="inTbt.cpp">Inorder Threaded Binary Tree</a></li>
+      <li><a href="preTBT.cpp">Preorder Threaded Binary Tree</a></li>
     </ul>
     <li><b>Algorithms</b></li>
     <ul>
-      <li>Djikstra's Algorithm - Shortest Path</li>
-      <li>Fibonacci Search</li>
-      <li>Quick Sort</li>
-      <li>Saddle Point - Matrix</li>
-      <li>Ternary Search</li>
+      <li><a href="dj.cpp">Djikstra's Algorithm - Shortest Path</a></li>
+      <li><a href="fibonacci_search.cpp">Fibonacci Search</a></li>
+      <li><a href="quick_sort.cpp">Quick Sort</a></li>
+      <li><a href="saddle_point.cpp">Saddle Point - Matrix</a></li>
+      <li><a href="ternary_search.cpp">Ternary Search</a></li>
     </ul>
   </ol>
 </i>
