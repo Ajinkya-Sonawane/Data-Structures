@@ -4,7 +4,7 @@ All the programs are in `C++`
 <i>
   ## Table of Contents
   <ol>
-    <li<h3> Data Structures</h3><br><br></li>
+    <li><h3> Data Structures</h3><br><br></li>
     <ul>
       <li>
         <a href="bst.cpp">Binary Search Tree</a><br>
