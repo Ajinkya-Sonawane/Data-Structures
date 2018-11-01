@@ -45,6 +45,7 @@ All the programs are in `C++`
         <hr></li>
     </li>
       <li><a href="parallel_bin.cpp">Parallel Binary Search</a><br>
+            <img src="https://media.giphy.com/media/8mbmTTWKqB72czE0CX/giphy.gif"><br>
              <hr>
     </li>
     </ul>
