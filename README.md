@@ -44,6 +44,10 @@ All the programs are in `C++`
                 <img src="/images/ternary.png"><br>
         <hr></li>
     </li>
+      <li><a href="parallel_bin.cpp">Parallel Binary Search</a><br>
+             
+        <hr></li>
+    </li>
     </ul>
   </ol>
 </i>
